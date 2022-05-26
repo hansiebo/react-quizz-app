@@ -1,0 +1,59 @@
+* {
+  font-family: "Karla", sans-serif;
+  color: #293264;
+  text-align: center;
+}
+
+body {
+  background-color: #f5f7fb;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 41px;
+  margin-top: 20%;
+}
+
+.start-btn {
+  font-size: 20px;
+  display: grid;
+  align-items: center;
+  width: 190px;
+  height: 50px;
+  left: 180px;
+  top: 315px;
+  background-color: #4d5b9e;
+  border-radius: 15px;
+  color: #f5f7fb;
+  box-shadow: 1px 12px 13px -5px rgba(118, 118, 118, 0.71);
+  cursor: pointer;
+  border: none;
+}
+
+button {
+  width: 75px;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  border-color: #4d5b9e;
+  margin-right: 15px;
+}
+
+.correct_answer {
+  background-color: #94d7a2;
+  border: none;
+}
+
+.wrong_answer {
+  background-color: #f8bcbc;
+  border: none;
+}
+
+hr {
+  color: #dbdef0;
+  width: 700px;
+  margin-top: 15px;
+}
